@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Arimo", sans-serif;
+}
+
+/* HERO SECTION */
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url(assets/photo_2026-02-22_15-35-34.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* NAVBAR */
+.navbar {
+  position: relative;
+  top: 32px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Pacifico", cursive;
+  color: white;
+}
+
+.nav-list {
+  display: flex;
+  gap: 60px;
+}
+
+.nav-item a {
+  color: white;
+  font-size: 18px;
+}
+
+/* HERO CONTENT */
+.hero-content {
+  text-align: center;
+  color: white;
+  margin-top: 250px;
+}
+
+.hero-title {
+  font-size: 24px;
+}
+
+.hero-subtitle {
+  font-size: 48px;
+}
+
+.btn {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 25px;
+  font-size: 14px;
+  margin-top: 24px;
+  cursor: pointer;
+}
+
+.btn-primary,
+.btn-secondary {
+  background-color: rgb(35, 90, 35);
+  color: white;
+}
+
+.btn-accent {
+  background-color: #ffffff;
+  color: #2b6f3e;
+}
+
+/* SOCIAL ICONS */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  font-size: 40px;
+  margin-top: 32px;
+  color: white;
+}
+
+/* INFO SECTION */
+.info-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.info-card {
+  display: flex;
+  gap: 50px;
+  width: 923px;
+  height: 359px;
+  align-items: center;
+}
+
+.info-images {
+  display: flex;
+  gap: 15px;
+}
+
+.image-main {
+  padding-top: 32px;
+}
+
+.image-secondary {
+  margin-bottom: 32px;
+}
+
+.info-text h3 {
+  font-size: 32px;
+  width: 366px;
+  margin-bottom: 24px;
+}
+
+.info-text p {
+  font-size: 18px;
+  color: gray;
+  margin-bottom: 32px;
+}
+
+/* DISCOVER SECTION */
+.discover-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.section-title {
+  width: 400px;
+  font-size: 32px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.places-grid {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.place-card {
+  width: 274px;
+  height: 346px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 20px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.place-card:hover {
+  width: 300px;
+  height: 400px;
+}
+
+/* Background Images */
+.place-1 {
+  background-image: url(assets/unsplash_zR8ekoHsoPo.png);
+}
+
+.place-2 {
+  background-image: url(assets/photo_2026-02-22_15-49-26.jpg);
+}
+
+.place-3 {
+  background-image: url(assets/photo_2026-02-22_15-49-30.jpg);
+}
+
+/* FEATURED SECTION */
+.featured-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.featured-grid {
+  display: flex;
+  gap: 32px;
+}
+
+.featured-card {
+  position: relative;
+  width: 290px;
+  height: 346px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.featured-card:hover {
+  width: 300px;
+  height: 400px;
+}
+
+.featured-1 {
+  background-image: url(assets/photo_2026-02-22_15-52-54.jpg);
+}
+
+.featured-2 {
+  background-image: url(assets/photo_2026-02-22_15-52-58.jpg);
+}
+
+.featured-3 {
+  background-image: url(assets/photo_2026-02-22_15-53-05.jpg);
+}
+
+.featured-info {
+  position: absolute;
+  bottom: 20px;
+  background-color: white;
+  color: black;
+  border-radius: 12px;
+  width: 256px;
+  height: 78px;
+  text-align: center;
+}
+
+.featured-info h3 {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  font-size: 24px;
+}
+
+.featured-info p {
+  color: gray;
+}
+
+/* NEWSLETTER */
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 334px;
+  text-align: center;
+  background-color: #2b6f3e;
+  border-radius: 16px;
+  margin: 130px;
+}
+
+.newsletter-title {
+  color: white;
+  font-size: 32px;
+  padding-top: 85px;
+}
+
+.newsletter-text {
+  color: white;
+  font-size: 18px;
+  line-height: 120%;
+  padding-top: 16px;
+  width: 343px;
+}
+
+.site-footer {
+  background-color: #2b6f3e;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 32px;
+  width: 100%;
+  height: 84px;
+  color: white;
+}
